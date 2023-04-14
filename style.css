@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:wght@300&display=swap');
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -7,12 +7,13 @@ body {
 }
 
 hr {
-    width: 500px;
+    width: 35em;
+    /* color: #3a3a3c; */
 }
 
 #title {
-    font-size: 50px;
-    margin: 5px;
+    font-size: 3.5em;
+    margin: 0em;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: 'Mynerve', cursive;
@@ -37,7 +38,7 @@ hr {
 
     /* Text */
     color: white;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-size: 2.1em;
     font-weight: bold;
     display: flex;
@@ -72,8 +73,8 @@ hr {
 }
 
 .key-tile {
-    width: 1.7em;
-    height: 2.2em;
+    width: 1.8rem;
+    height: 2.4rem;
     margin: .2em;
     border: 1px solid #818384;
     background-color: #818384;
@@ -89,16 +90,16 @@ hr {
 }
 
 .enter-key-tile {
-    width: 4em;
-    height: 1.85em;
+    width: 5.5rem;
+    height: 2.4rem;
     margin: .2em;
     border: 1px solid #818384;
     background-color: #818384;
     border-radius: .2em;
 
     /* Text */
-    font-size: 1.3em;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: #ffffff;
     display: flex;
     justify-content: center;
