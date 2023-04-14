@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #121213;
+}
+
+hr {
+    width: 500px;
+}
+
+#title {
+    font-size: 50px;
+    margin: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Mynerve', cursive;
+    color: #ffffff;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid #3a3a3c;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* Text */
+    color: white;
+    font-size: 36px;
+    font-size: 2.1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: #538d4e;
+    color: white;
+}
+
+.present {
+    background-color: #b59f3b;
+    color: white;
+}
+
+.absent {
+    background-color: #787C7E;
+    color: white;
+    border-color: #787C7E;
+}
+
+
+.keyboard-row {
+    width: 27rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key-tile {
+    width: 1.7em;
+    height: 2.2em;
+    margin: .2em;
+    border: 1px solid #818384;
+    background-color: #818384;
+    border-radius: .2em;
+
+    /* Text */
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-key-tile {
+    width: 4em;
+    height: 1.85em;
+    margin: .2em;
+    border: 1px solid #818384;
+    background-color: #818384;
+    border-radius: .2em;
+
+    /* Text */
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
